@@ -127,33 +127,34 @@ function draw()
     
     // Legs
 
-// Left Side
+    // Left Side
 
-// Thigh
-fill(233,150,122);
-quad(gameChar_x-8,gameChar_y-25,gameChar_x-5,gameChar_y-25,gameChar_x-5,gameChar_y-19,gameChar_x-8,gameChar_y-19);
+    // Thigh
+    fill(233,150,122);
+    quad(gameChar_x-8,gameChar_y-25,gameChar_x-5,gameChar_y-25,gameChar_x-5,gameChar_y-19,gameChar_x-8,gameChar_y-19);
 
-// Calf
-fill(0,100,0);
-quad(gameChar_x-8,gameChar_y-19,gameChar_x-5,gameChar_y-19,gameChar_x-6,gameChar_y-13,gameChar_x-9,gameChar_y-13);
+    // Calf
+    fill(0,100,0);
+    quad(gameChar_x-8,gameChar_y-19,gameChar_x-5,gameChar_y-19,gameChar_x-6,gameChar_y-13,gameChar_x-9,gameChar_y-13);
 
-// Foot
-fill(128,0,0);
-quad(gameChar_x-9,gameChar_y-13,gameChar_x-6,gameChar_y-13,gameChar_x-5,gameChar_y-10,gameChar_x-12,gameChar_y-10);
+    // Foot
+    fill(128,0,0);
+    quad(gameChar_x-9,gameChar_y-13,gameChar_x-6,gameChar_y-13,gameChar_x-5,gameChar_y-10,gameChar_x-12,gameChar_y-10);
 
-// Right Side
+    // Right Side
 
-// Thigh
-fill(233,150,122);
-quad(gameChar_x+3,gameChar_y-25,gameChar_x+6,gameChar_y-25,gameChar_x+6,gameChar_y-19,gameChar_x+3,gameChar_y-19);
+    // Thigh
+    fill(233,150,122);
+    quad(gameChar_x+3,gameChar_y-25,gameChar_x+6,gameChar_y-25,gameChar_x+6,gameChar_y-19,gameChar_x+3,gameChar_y-19);
 
-// Calf
-fill(0,100,0);
-quad(gameChar_x+3,gameChar_y-19,gameChar_x+6,gameChar_y-19,gameChar_x+7,gameChar_y-13,gameChar_x+4,gameChar_y-13);
+    // Calf
+    fill(0,100,0);
+    quad(gameChar_x+3,gameChar_y-19,gameChar_x+6,gameChar_y-19,gameChar_x+7,gameChar_y-13,gameChar_x+4,gameChar_y-13);
 
-// Foot
-fill(128,0,0);
-quad(gameChar_x+4,gameChar_y-13,gameChar_x+7,gameChar_y-13,gameChar_x+8,gameChar_y-10,gameChar_x+1,gameChar_y-10);
+    // Foot
+    fill(128,0,0);
+    quad(gameChar_x+4,gameChar_y-13,gameChar_x+7,gameChar_y-13,gameChar_x+10,gameChar_y-10,gameChar_x+3,gameChar_y-10);
+    
 	//Walking, turned left
 	stroke(100);
 	noFill();
