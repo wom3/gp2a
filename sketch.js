@@ -84,7 +84,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x-8,gameChar_y-8,gameChar_x-5,gameChar_y-8,gameChar_x-4,gameChar_y-5,gameChar_x-11,gameChar_y-5)
+    quad(gameChar_x-8,gameChar_y-8,gameChar_x-5,gameChar_y-8,gameChar_x-4,gameChar_y,gameChar_x-11,gameChar_y)
     
     // Right Side
     
@@ -99,7 +99,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x+3,gameChar_y-8,gameChar_x+6,gameChar_y-8,gameChar_x+9,gameChar_y-5,gameChar_x+2,gameChar_y-5)
+    quad(gameChar_x+3,gameChar_y-8,gameChar_x+6,gameChar_y-8,gameChar_x+9,gameChar_y,gameChar_x+2,gameChar_y)
     
 	//Jumping facing forwards
 	stroke(100);
@@ -139,7 +139,7 @@ function draw()
 
     // Foot
     fill(128,0,0);
-    quad(gameChar_x-9,gameChar_y-13,gameChar_x-6,gameChar_y-13,gameChar_x-5,gameChar_y-10,gameChar_x-12,gameChar_y-10);
+    quad(gameChar_x-9,gameChar_y-13,gameChar_x-6,gameChar_y-13,gameChar_x-5,gameChar_y-5,gameChar_x-12,gameChar_y-5);
 
     // Right Side
 
@@ -153,7 +153,7 @@ function draw()
 
     // Foot
     fill(128,0,0);
-    quad(gameChar_x+4,gameChar_y-13,gameChar_x+7,gameChar_y-13,gameChar_x+10,gameChar_y-10,gameChar_x+3,gameChar_y-10);
+    quad(gameChar_x+4,gameChar_y-13,gameChar_x+7,gameChar_y-13,gameChar_x+10,gameChar_y-5,gameChar_x+3,gameChar_y-5);
     
 	//Walking, turned left
 	stroke(100);
@@ -194,7 +194,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x-12,gameChar_y-10,gameChar_x-9,gameChar_y-10,gameChar_x-8,gameChar_y-7,gameChar_x-15,gameChar_y-7)
+    quad(gameChar_x-12,gameChar_y-10,gameChar_x-9,gameChar_y-10,gameChar_x-8,gameChar_y-2,gameChar_x-15,gameChar_y-2)
     
     // Right Side
     
@@ -209,7 +209,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x+3,gameChar_y-8,gameChar_x+6,gameChar_y-8,gameChar_x+7,gameChar_y-5,gameChar_x,gameChar_y-5)
+    quad(gameChar_x+3,gameChar_y-8,gameChar_x+6,gameChar_y-8,gameChar_x+7,gameChar_y,gameChar_x,gameChar_y)
 
 	//Walking, turned right
 	stroke(100);
@@ -251,7 +251,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x-8,gameChar_y-8,gameChar_x-5,gameChar_y-8,gameChar_x-2,gameChar_y-5,gameChar_x-9,gameChar_y-5)
+    quad(gameChar_x-8,gameChar_y-8,gameChar_x-5,gameChar_y-8,gameChar_x-2,gameChar_y,gameChar_x-9,gameChar_y)
     
     // Right Side
     
@@ -266,7 +266,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x+5,gameChar_y-8,gameChar_x+8,gameChar_y-8,gameChar_x+11,gameChar_y-5,gameChar_x+4,gameChar_y-5)
+    quad(gameChar_x+5,gameChar_y-8,gameChar_x+8,gameChar_y-8,gameChar_x+11,gameChar_y-1,gameChar_x+4,gameChar_y-1)
 	
     //Jumping right
 	stroke(100);
@@ -307,7 +307,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x-6,gameChar_y-12,gameChar_x-3,gameChar_y-12,gameChar_x-1,gameChar_y-9,gameChar_x-7,gameChar_y-9)
+    quad(gameChar_x-6,gameChar_y-12,gameChar_x-3,gameChar_y-12,gameChar_x-1,gameChar_y-4,gameChar_x-7,gameChar_y-4)
     
     // Right Side
     
@@ -321,7 +321,7 @@ function draw()
     
     // Foot
     fill(128,0,0);
-    quad(gameChar_x+6,gameChar_y-12,gameChar_x+9,gameChar_y-12,gameChar_x+12,gameChar_y-9,gameChar_x+5,gameChar_y-9)
+    quad(gameChar_x+6,gameChar_y-12,gameChar_x+9,gameChar_y-12,gameChar_x+12,gameChar_y-4,gameChar_x+5,gameChar_y-4)
     
 	//Jumping to the left
 	stroke(100);
@@ -362,7 +362,7 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x-12,gameChar_y-11,gameChar_x-9,gameChar_y-11,gameChar_x-8,gameChar_y-8,gameChar_x-15,gameChar_y-8)
+    quad(gameChar_x-12,gameChar_y-11,gameChar_x-9,gameChar_y-11,gameChar_x-8,gameChar_y-3,gameChar_x-15,gameChar_y-3)
     
     // Right Side
     
@@ -376,5 +376,5 @@ function draw()
     // Foot
     
     fill(128,0,0);
-    quad(gameChar_x-3,gameChar_y-11,gameChar_x,gameChar_y-11,gameChar_x+1,gameChar_y-8,gameChar_x-6,gameChar_y-8)    
+    quad(gameChar_x-3,gameChar_y-11,gameChar_x,gameChar_y-11,gameChar_x+1,gameChar_y-3,gameChar_x-6,gameChar_y-3)    
 }
